@@ -19,3 +19,7 @@ We can modify the port by changing the port number at `Server::bind` function in
 
 `server.rs` will listen to the incoming connection to the address, the websocket connection will be initiated by the client. The server will accepts the incoming connections and handles the incoming messages.
 
+# 2.3: Small changes, add IP and Port
+
+![](./2.3.png)
+We only have to the message at server to include the IP and the port from the client. 
